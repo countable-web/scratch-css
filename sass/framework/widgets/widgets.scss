@@ -1,0 +1,80 @@
+
+/* Components =========================================== */
+
+.transparent-theme {
+  padding: 1rem;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.dark-theme {
+  background-color: #464646;
+  padding: 1rem;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.dark {
+  color: white;
+}
+
+.white {
+  color: #464646;
+}
+
+
+.bawkbox-widgets-input {
+  border-radius: 3px;
+  background-color: #EFEFEF;
+  border: none;
+  outline: none;
+  padding: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  width: 100%;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.bawkbox-widgets-input::placeholder,
+.bawkbox-widgets-textarea::placeholder {
+  font-size: 0.8rem;
+  text-transform: lowercase;
+  font-weight: 600;
+  color: #B4B4B4;
+
+}
+
+.bawkbox-widgets-textarea {
+  border-radius: 3px;
+  background-color: #EFEFEF;
+  border: none;
+  outline: none;
+  padding: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  width: 100%;
+  resize: none;
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+
+
+.bawkbox-textarea-wrapper {
+  position: relative;
+}
+
+.bawkbox-powered-by {
+  position: absolute;
+  bottom: 1rem;
+  right: -0.7rem;
+  color: #B4B4B4;
+  font-size: 0.6rem;
+  width: 144px;
+}
+
+.bawkbox-powered-by-logo {
+  max-width: 50px;
+  padding-left: .2rem;
+}

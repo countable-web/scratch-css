@@ -1,0 +1,35 @@
+.contact-container {
+  background-color: white;
+  font-family: $font-primary;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+.rio {
+
+  box-sizing: border-box;
+  background: url("../../../images/rio.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+/* Components =========================================== */
+
+.bawkbox-contact {
+  width: 500px;
+  height: auto;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  align-self: center;
+  margin-bottom: 3rem;
+}
+
+.bawkbox-contact-title {
+
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: -0.1rem;
+}

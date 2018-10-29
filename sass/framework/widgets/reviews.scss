@@ -1,0 +1,52 @@
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+.rio {
+
+  box-sizing: border-box;
+  background: url("../images/rio.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.bawkbox-reviews {
+  width: 500px;
+  height: auto;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  align-self: center;
+  margin-bottom: 3rem;
+}
+
+.bawkbox-reviews-title {
+
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: -0.1rem;
+}
+
+.stars {
+  display: flex;
+  flex-wrap: nowrap;
+
+  box-sizing: border-box;
+  margin-top: .5rem;
+
+}
+
+.star-review {
+  flex: 1 1 auto;
+  justify-self: flex-start;
+  max-width: 20px;
+  height: 20px;
+  padding: .2rem;
+  padding-left: .5rem;
+
+}
