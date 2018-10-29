@@ -10,63 +10,68 @@
     <!--BOOTSTRAP (Header)-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/cover.css">
+
+    <link rel="stylesheet" href="sass/style.css">
 
 
 </head>
 
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <strong>Scratch CSS</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="documentation.html">Documentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
 
-<body class="text-center">
-
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-        <div class="inner">
-            <h3 class="masthead-brand">Scratch CSS</h3>
-            <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
-            </nav>
         </div>
-    </header>
+    </nav>
+</header>
 
-    <main role="main" class="inner cover">
-        <h1 class="cover-heading">Widget focused CSS framework</h1>
-        <p class="lead">by Bawkbox</p>
-        <p class="lead">
-            <a href="#" class="btn btn-lg btn-secondary">Documentation</a>
-        </p>
-    </main>
-
-    <footer class="mastfoot mt-auto">
-        <div class="inner">
-            <p>Scratch framework by <a href="https://bawkbox.com/">Bawkbox</a> &copy; All rights reserved.</p>
-        </div>
-    </footer>
-</div>
+<main class="doc-container">
 
 
+    <!--OPTIONS-->
+    <div class="col-doc-left">
+
+        <h5>Components</h5>
+        <ul class="components-list">
+            <li>
+                <a href="#">Forms</a>
+            </li>
+        </ul>
+
+    </div>
 
 
+    <div class="col-doc-right">
+
+        <h2>Forms</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur esse facilis maxime non
+            quisquam quos saepe similique sit voluptas!</p>
 
 
+    </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</main>
 
 
 <!--BOOTSTRAP (Footer)-->

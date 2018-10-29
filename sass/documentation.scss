@@ -1,0 +1,53 @@
+body {
+  font-family: $font-secondary;
+}
+
+header {
+  font-family: $font-primary;
+
+  nav {
+    background-color: #080d0d;
+  }
+}
+
+
+h2 {
+  font-size: 2rem;
+}
+
+.doc-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 4rem;
+
+  .col-doc-left,
+  .col-doc-right {
+    padding: 2rem;
+  }
+
+  .col-doc-left {
+    box-sizing: border-box;
+    flex: 1 1 20%;
+
+  }
+
+  .col-doc-right {
+    box-sizing: border-box;
+    flex: 1 1 80%;
+  }
+
+  .components-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #333333;
+
+    li a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+  }
+
+}
