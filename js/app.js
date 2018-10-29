@@ -1,16 +1,25 @@
 $(function () {
 
-    let options = ["Forms", "Buttons", "Inputs"]
 
-    //add dinamically generated options to menu
-
-    for (let option of options) {
-        let decorator = `<li>
-                <a href="views/${option.toLowerCase()}.html">${option}</a>
-            </li>`;
-        $(".components-list").append(decorator);
-
+    let path = "";
+    if(window.location.href.indexOf("documentation") > -1) {
+        path = "views/";
     }
+
+
+    let decorator = `
+                <li>
+                    <a href="${path}forms.html">Forms</a>
+                 </li>
+                
+                <li>
+                    <a href="${path}buttons.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="${path}inputs.html">Inputs</a>
+                </li>
+           `;
+    $(".components-list").append(decorator);
 
 
 });

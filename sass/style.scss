@@ -1,15 +1,16 @@
+
+/* Reset =========================================== */
+@import "framework/other/normalize";
+
 /* Base framework components =========================================== */
 @import "framework/components/colors";
 @import "framework/components/fonts";
 @import "framework/components/buttons";
 
-
 /* Widgets =========================================== */
-
 @import "framework/widgets/widgets";
 @import "framework/widgets/contact";
 @import "framework/widgets/reviews";
-
 
 /* Pages =========================================== */
 @import "documentation";
