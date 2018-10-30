@@ -1,6 +1,8 @@
 $(function () {
 
 
+
+
     let path = "";
     if(window.location.href.indexOf("documentation") > -1) {
         path = "views/";

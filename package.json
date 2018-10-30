@@ -1,0 +1,22 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "description": "CSS Library for Widgets (embedding on 3rd party sites)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/countable-web/scratch-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/countable-web/scratch-css/issues"
+  },
+  "homepage": "https://github.com/countable-web/scratch-css#readme",
+  "dependencies": {
+    "prismjs": "^1.15.0"
+  }
+}
