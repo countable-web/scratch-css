@@ -81,6 +81,7 @@ h2 {
 }
 
 .markup-box {
+
   max-height: 10rem;
   /*MOBILE ONLY CODE*/
   @media screen and (max-width: 700px) {
@@ -92,13 +93,16 @@ h2 {
 
   }
 
+}
 
+.markup-box-big {
+  max-height: 27.9rem;
 
 }
 
 .markup-wrapper {
   position: relative;
-  margin-top: 2rem;
+  margin-top: -0.4rem;
 }
 
 .btn-copy-clipboard {
@@ -106,15 +110,15 @@ h2 {
   top: 0.6rem;
   border: none;
   outline: none;
-  right: 1.5rem;
-  width: 100px;
+  left: 0.5rem;
+  width: 73.2px;
   height: auto;
-  padding: 0.5rem;
+  padding: 0.2rem;
   text-align: center;
   color: white;
-  background-color: #333333;
+  background-color: #333333bd;
   border-radius: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-family: $font-primary;
 
   &:focus, &:active {
