@@ -82,4 +82,44 @@ h2 {
 
 .markup-box {
   max-height: 10rem;
+  /*MOBILE ONLY CODE*/
+  @media screen and (max-width: 700px) {
+    max-width: 80vw;
+
+  }
+  @media screen and (max-width: 500px) {
+    max-width: 78vw;
+
+  }
+
+
+
+}
+
+.markup-wrapper {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.btn-copy-clipboard {
+  position: absolute;
+  top: 0.6rem;
+  border: none;
+  outline: none;
+  right: 1.5rem;
+  width: 100px;
+  height: auto;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-family: $font-primary;
+
+  &:focus, &:active {
+    outline: none;
+    box-shadow: none;
+  }
+
 }

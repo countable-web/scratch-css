@@ -14,6 +14,11 @@
   min-width: 130px;
   max-width: 100px;
   margin-top: 1rem;
+
+  display: inline-block;
+  float: left;
+  margin-right: 1rem;
+
 }
 
 .btn-widgets-black {
@@ -41,6 +46,6 @@
 }
 
 .btn-align-right {
-  margin-left: auto;
+  float: right;
 
 }

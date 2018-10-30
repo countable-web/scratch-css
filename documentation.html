@@ -19,12 +19,13 @@
     <!--PRISMJS SYNTAX HIGHLIGHTER-->
 
     <link href="node_modules/prismjs/themes/prism.css" rel="stylesheet"/>
-
     <script src="node_modules/prismjs/prism.js"></script>
 
-
     <!--COPY TO CLIPBOARD JS PLUGIN-->
+    <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
 
+
+    <!--CUSTOM JS-->
 
     <script src="js/app.js"></script>
 
@@ -77,9 +78,13 @@
         <p>This contact and reviews form widget design is easily adaptable to most of the background colors, coming in
             two different samples: A for light backgrounds and B for darker backgrounds.
 
+
+        <!--CONTACT DEFAULT-->
         <div class="row">
 
-            <div class="col-md-12">
+            <div class="col-md-12 mb-5">
+                <h4 class="pb-2 pt-3">Default Theme</h4>
+                <hr>
                 <div class="bawkbox-contact">
 
                     <div class="bawkbox-contact-title white">Contact Us</div>
@@ -111,7 +116,9 @@
 
             <div class="col-md-12">
 
-                <pre class="language-markup markup-box"><code class="language-markup">
+                <div class="markup-wrapper">
+                     <pre class="language-markup markup-box">
+                    <code class="language-markup" id="contact-default">
 &lt;div class=&quot;bawkbox-contact&quot;&gt;
         &lt;div class=&quot;bawkbox-contact-title white&quot;&gt;Contact Us&lt;/div&gt;
         &lt;input type=&quot;text&quot; placeholder=&quot;name&quot; class=&quot;bawkbox-widgets-input&quot;&gt;
@@ -128,94 +135,196 @@
         &lt;div class=&quot;btn-bawkbox-widgets btn-widgets-black btn-align-right&quot;&gt;Submit&lt;/div&gt;
     &lt;/div&gt;
 
-                </code></pre>
+                </code>
+
+
+
+
+                </pre>
+                    <button class="btn-copy-clipboard" data-clipboard-target="#contact-default" data-toggle="tooltip"
+                            data-placement="bottom" data-trigger="click" title="Copied to clipboard!">Copy
+                    </button>
+                </div>
+
             </div>
         </div>
 
-        <!--<div class="row mt-5">-->
-            <!--<div class="col-md-6">-->
-                <!--<div class="bawkbox-contact dark-theme">-->
+        <!--CONTACT DARK-->
 
-                    <!--<div class="bawkbox-contact-title dark">Contact Us</div>-->
+        <div class="row mt-5">
+            <div class="col-md-12 mb-5">
+                <h4 class="pb-2 pt-3">Dark Theme</h4>
+                <hr>
+                <div class="bawkbox-contact dark-theme">
 
-                    <!--<input type="text" placeholder="name" class="bawkbox-widgets-input">-->
-                    <!--<input type="email" placeholder="email" class="bawkbox-widgets-input">-->
+                    <div class="bawkbox-contact-title dark">Contact Us</div>
 
-                    <!--<div class="bawkbox-textarea-wrapper">-->
-                        <!--<textarea class="bawkbox-widgets-textarea" cols="30" rows="10" placeholder="message"></textarea>-->
-                        <!--<div class="bawkbox-powered-by">powered by &copy;-->
-                            <!--<object type="image/svg+xml" data="images/widgets/components/widget-logo.svg"-->
-                                    <!--class="bawkbox-powered-by-logo">-->
-                                <!--<img src="images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">-->
-                            <!--</object>-->
-                        <!--</div>-->
-                    <!--</div>-->
+                    <input type="text" placeholder="name" class="bawkbox-widgets-input">
+                    <input type="email" placeholder="email" class="bawkbox-widgets-input">
 
-
-                    <!--<div class="btn-bawkbox-widgets btn-widgets-red  btn-align-right">Submit</div>-->
-
-
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="col-md-6">-->
+                    <div class="bawkbox-textarea-wrapper">
+                        <textarea class="bawkbox-widgets-textarea" cols="30" rows="10" placeholder="message"></textarea>
+                        <div class="bawkbox-powered-by">powered by &copy;
+                            <object type="image/svg+xml" data="images/widgets/components/widget-logo.svg"
+                                    class="bawkbox-powered-by-logo">
+                                <img src="images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
+                            </object>
+                        </div>
+                    </div>
 
 
-                  <!--<pre class="language-markup markup-box"><code class="language-markup">-->
-<!--&lt;div class=&quot;bawkbox-contact dark-theme&quot;&gt;-->
-                <!--&lt;div class=&quot;bawkbox-contact-title dark&quot;&gt;Contact Us&lt;/div&gt;-->
-                <!--&lt;input type=&quot;text&quot; placeholder=&quot;name&quot; class=&quot;bawkbox-widgets-input&quot;&gt;-->
-                <!--&lt;input type=&quot;email&quot; placeholder=&quot;email&quot; class=&quot;bawkbox-widgets-input&quot;&gt;-->
-                <!--&lt;div class=&quot;bawkbox-textarea-wrapper&quot;&gt;-->
-                    <!--&lt;textarea class=&quot;bawkbox-widgets-textarea&quot; cols=&quot;30&quot; rows=&quot;10&quot; placeholder=&quot;message&quot;&gt;&lt;/textarea&gt;-->
-                    <!--&lt;div class=&quot;bawkbox-powered-by&quot;&gt;powered by &amp;copy;-->
-                        <!--&lt;object type=&quot;image/svg+xml&quot; data=&quot;images/widgets/components/widget-logo.svg&quot;-->
-                                <!--class=&quot;bawkbox-powered-by-logo&quot;&gt;-->
-                            <!--&lt;img src=&quot;images/widgets/components/widget-logo.svg&quot; class=&quot;bawkbox-powered-by-logo&quot;&gt;-->
-                        <!--&lt;/object&gt;-->
-                    <!--&lt;/div&gt;-->
-                <!--&lt;/div&gt;-->
-                <!--&lt;div class=&quot;btn-bawkbox-widgets btn-widgets-red  btn-align-right&quot;&gt;Submit&lt;/div&gt;-->
-            <!--&lt;/div&gt;&lt;/div&gt;-->
-                <!--</code></pre>-->
+                    <div class="btn-bawkbox-widgets btn-widgets-red  btn-align-right">Submit</div>
+                </div>
+            </div>
+        </div>
 
 
-            <!--</div>-->
-        <!--</div>-->
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="markup-wrapper">
+                     <pre class="language-markup markup-box">
+                    <code class="language-markup" id="contact-dark">
+   &lt;div class=&quot;bawkbox-contact dark-theme&quot;&gt;
+
+            &lt;div class=&quot;bawkbox-contact-title dark&quot;&gt;Contact Us&lt;/div&gt;
+
+            &lt;input type=&quot;text&quot; placeholder=&quot;name&quot; class=&quot;bawkbox-widgets-input&quot;&gt;
+            &lt;input type=&quot;email&quot; placeholder=&quot;email&quot; class=&quot;bawkbox-widgets-input&quot;&gt;
+
+            &lt;div class=&quot;bawkbox-textarea-wrapper&quot;&gt;
+                &lt;textarea class=&quot;bawkbox-widgets-textarea&quot; cols=&quot;30&quot; rows=&quot;10&quot; placeholder=&quot;message&quot;&gt;&lt;/textarea&gt;
+                &lt;div class=&quot;bawkbox-powered-by&quot;&gt;powered by &amp;copy;
+                    &lt;object type=&quot;image/svg+xml&quot; data=&quot;images/widgets/components/widget-logo.svg&quot;
+                            class=&quot;bawkbox-powered-by-logo&quot;&gt;
+                        &lt;img src=&quot;images/widgets/components/widget-logo.svg&quot; class=&quot;bawkbox-powered-by-logo&quot;&gt;
+                    &lt;/object&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
 
 
-        <!--<div class="contact-container">-->
+            &lt;div class=&quot;btn-bawkbox-widgets btn-widgets-red  btn-align-right&quot;&gt;Submit&lt;/div&gt;
+        &lt;/div&gt;
+
+                </code>
 
 
-            <!--<div class="bawkbox-contact transparent-theme rio">-->
-
-                <!--<div class="bawkbox-contact-title dark">Contact Us</div>-->
-
-                <!--<input type="text" placeholder="name" class="bawkbox-widgets-input">-->
-                <!--<input type="email" placeholder="email" class="bawkbox-widgets-input">-->
-
-                <!--<div class="bawkbox-textarea-wrapper">-->
-                    <!--<textarea class="bawkbox-widgets-textarea" cols="30" rows="10" placeholder="message"></textarea>-->
-                    <!--<div class="bawkbox-powered-by">powered by &copy;-->
-                        <!--<object type="image/svg+xml" data="images/widgets/components/widget-logo.svg"-->
-                                <!--class="bawkbox-powered-by-logo">-->
-                            <!--<img src="images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">-->
-                        <!--</object>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="btn-bawkbox-widgets btn-widgets-green btn-align-right">Submit</div>-->
 
 
-            <!--</div>-->
+                </pre>
+                    <button class="btn-copy-clipboard" data-clipboard-target="#contact-dark" data-toggle="tooltip"
+                            data-placement="bottom" data-trigger="click" title="Copied to clipboard!">Copy
+                    </button>
+                </div>
 
-        <!--</div>-->
+            </div>
+        </div>
+
+
+        <!--CONTACT TRANSPARENT-->
+
+        <div class="row mt-5">
+            <div class="col-md-12 mb-5">
+                <h4 class="pb-2 pt-3">Transparent Theme</h4>
+                <hr>
+
+                <div class="bawkbox-contact transparent-theme rio">
+
+                    <div class="bawkbox-contact-title dark">Contact Us</div>
+
+                    <input type="text" placeholder="name" class="bawkbox-widgets-input">
+                    <input type="email" placeholder="email" class="bawkbox-widgets-input">
+
+                    <div class="bawkbox-textarea-wrapper">
+                        <textarea class="bawkbox-widgets-textarea" cols="30" rows="10" placeholder="message"></textarea>
+                        <div class="bawkbox-powered-by">powered by &copy;
+                            <object type="image/svg+xml" data="images/widgets/components/widget-logo.svg"
+                                    class="bawkbox-powered-by-logo">
+                                <img src="images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="btn-bawkbox-widgets btn-widgets-green btn-align-right">Submit</div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="markup-wrapper">
+                     <pre class="language-markup markup-box">
+                    <code class="language-markup" id="contact-transparent">
+                         &lt;div class=&quot;bawkbox-contact transparent-theme rio&quot;&gt;
+    &lt;div class=&quot;bawkbox-contact-title dark&quot;&gt;Contact Us&lt;/div&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;name&quot; class=&quot;bawkbox-widgets-input&quot;&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;email&quot; class=&quot;bawkbox-widgets-input&quot;&gt;
+    &lt;div class=&quot;bawkbox-textarea-wrapper&quot;&gt;
+    &lt;textarea class=&quot;bawkbox-widgets-textarea&quot; cols=&quot;30&quot; rows=&quot;10&quot; placeholder=&quot;message&quot;&gt;&lt;/textarea&gt;
+    &lt;div class=&quot;bawkbox-powered-by&quot;&gt;powered by &amp;copy;
+    &lt;object type=&quot;image/svg+xml&quot; data=&quot;images/widgets/components/widget-logo.svg&quot;
+    class=&quot;bawkbox-powered-by-logo&quot;&gt;
+    &lt;img src=&quot;images/widgets/components/widget-logo.svg&quot; class=&quot;bawkbox-powered-by-logo&quot;&gt;
+    &lt;/object&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;btn-bawkbox-widgets btn-widgets-green btn-align-right&quot;&gt;Submit&lt;/div&gt;
+                </code>
+                </pre>
+                    <button class="btn-copy-clipboard" data-clipboard-target="#contact-transparent" data-toggle="tooltip"
+                            data-placement="bottom" data-trigger="click" title="Copied to clipboard!">Copy
+                    </button>
+                </div>
+
+            </div>
+        </div>
 
     </div>
 
 
+    <!--<div class="col-md-6">-->
+
+
+    <!--<pre class="language-markup markup-box"><code class="language-markup">-->
+    <!--&lt;div class=&quot;bawkbox-contact dark-theme&quot;&gt;-->
+    <!--&lt;div class=&quot;bawkbox-contact-title dark&quot;&gt;Contact Us&lt;/div&gt;-->
+    <!--&lt;input type=&quot;text&quot; placeholder=&quot;name&quot; class=&quot;bawkbox-widgets-input&quot;&gt;-->
+    <!--&lt;input type=&quot;email&quot; placeholder=&quot;email&quot; class=&quot;bawkbox-widgets-input&quot;&gt;-->
+    <!--&lt;div class=&quot;bawkbox-textarea-wrapper&quot;&gt;-->
+    <!--&lt;textarea class=&quot;bawkbox-widgets-textarea&quot; cols=&quot;30&quot; rows=&quot;10&quot; placeholder=&quot;message&quot;&gt;&lt;/textarea&gt;-->
+    <!--&lt;div class=&quot;bawkbox-powered-by&quot;&gt;powered by &amp;copy;-->
+    <!--&lt;object type=&quot;image/svg+xml&quot; data=&quot;images/widgets/components/widget-logo.svg&quot;-->
+    <!--class=&quot;bawkbox-powered-by-logo&quot;&gt;-->
+    <!--&lt;img src=&quot;images/widgets/components/widget-logo.svg&quot; class=&quot;bawkbox-powered-by-logo&quot;&gt;-->
+    <!--&lt;/object&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class=&quot;btn-bawkbox-widgets btn-widgets-red  btn-align-right&quot;&gt;Submit&lt;/div&gt;-->
+    <!--&lt;/div&gt;&lt;/div&gt;-->
+    <!--</code></pre>-->
+
+
+    <!--</div>-->
+    <!--</div>-->
+
+
+    <!--<div class="contact-container">-->
+
+
+
+
+
+    <!--</div>-->
+
+    <!--</div>-->
+
+
 </main>
-
-
 
 
 <!--BOOTSTRAP (Footer)-->

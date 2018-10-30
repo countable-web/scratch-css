@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/countable-web/scratch-css#readme",
   "dependencies": {
+    "clipboard": "^2.0.1",
     "prismjs": "^1.15.0"
   }
 }
