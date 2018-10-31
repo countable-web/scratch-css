@@ -22,6 +22,9 @@ $(function () {
                 </li>
                 <li>
                     <a href="${path}inputs.html">Inputs</a>
+                </li> 
+                <li>
+                    <a href="${path}feedback.html">Feedback</a>
                 </li>
            `;
     $(".components-list").append(decorator);
