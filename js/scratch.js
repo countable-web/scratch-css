@@ -18,30 +18,38 @@ class FeedbackUI {
 
 
 class StarUI {
-     static clickToRating() {
-         let stars = document.querySelectorAll(".star-review");
-         let outlineStarPath = "../images/widgets/components/rating-star-outline.svg";
-         let filledStarPath = "../images/widgets/components/rating-star.svg";
+    static clickToRating() {
+        let stars = document.querySelectorAll(".star-review");
+        let outlineStarPath = "../images/widgets/components/rating-star-outline.svg";
+        let filledStarPath = "../images/widgets/components/rating-star.svg";
 
-         stars.forEach((star) => {
-             star.addEventListener('click', function (e) {
-                 let _this = e.target;
-                 let starId = _this.getAttribute("data-star-id"); //lets get the star number
+        stars.forEach((star) => {
+            star.addEventListener('click', function (e) {
+                let _this = e.target;
+                let starId = _this.getAttribute("data-star-id"); //lets get the star number
 
-                 //set everyone to outline
-                 stars.forEach((star) => {
-                     if (star.getAttribute("data-star-id") > starId) {
-                         star.setAttribute("src", outlineStarPath);
-                     } else {
-                         star.setAttribute("src", filledStarPath)
-                     }
+                //set everyone to outline
+                stars.forEach((star) => {
+                    if (star.getAttribute("data-star-id") > starId) {
+                        star.setAttribute("src", outlineStarPath);
+                    } else {
 
-                 })
+                        star.classList.add("heartbeat");
+                        star.setAttribute("src", filledStarPath);
+
+                        setTimeout(() => {
+                            star.classList.remove("heartbeat");
+                        },1000);
 
 
-             });
-         })
-     }
+                    }
+
+                })
+
+
+            });
+        })
+    }
 }
 
 
@@ -61,8 +69,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     StarUI.clickToRating();
-
-
 
 
 }, false);
