@@ -2,10 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdb2d30e-6aef-4824-9b0e-4ab78cb17f87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/angular/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/directives/layout/footerDirective.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/directives/layout/headerDirective.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/directives/layout/sidebarDirective.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/base/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/base/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/base/side.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components_reviews.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blogger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chatroom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/contact.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/customer-chat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/admin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/edit-widget.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/insights.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/support.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dashboard/widget.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/drupal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/google-sites.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/active-step.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/enterprise-plan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/free-plan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/inactive-step.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/locker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/plan-bar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/pro-plan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/recommended.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/red-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pricing/safe-payment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rocket-easy-steps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/squarespace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/star-review.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/testimonial-comma.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/testimonial-inactive-star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/testimonial-star-filled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tumblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/weebly.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/checklist.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/checklist.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/components/mailbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/components/mailbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/components/rating-star-outline-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/components/rating-star-outline-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/components/rating-star-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/components/rating-star-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/components/rating-star-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/components/rating-star-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/components/rating-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/components/rating-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/components/widget-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/components/widget-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/contact-box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/contact-box.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/feedback.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/feedback.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/feedback_1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/feedback_1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/like-dislike.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/like-dislike.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/ratings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/ratings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/widgets/support.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/widgets/support.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scratch.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scratch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/framework/components/animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/framework/components/animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/framework/widgets/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/framework/widgets/feedback.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/copy-to-clipboard/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/copy-to-clipboard/code-box-copy/css/code-box-copy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/copy-to-clipboard/code-box-copy/img/ic-copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/copy-to-clipboard/code-box-copy/js/code-box-copy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/copy-to-clipboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/documentation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/documentation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/buttons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/forms.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/inputs.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/inputs.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,22 +96,23 @@
     <session id="1468759032">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="11" />
-          <entry key="gitignore" value="2" />
-          <entry key="html" value="26" />
-          <entry key="js" value="5" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="28" />
+          <entry key="js" value="6" />
           <entry key="scss" value="38" />
           <entry key="svg" value="2" />
         </counts>
@@ -44,9 +120,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="Git file" value="2" />
-          <entry key="HTML" value="26" />
-          <entry key="JavaScript" value="5" />
+          <entry key="Git file" value="3" />
+          <entry key="HTML" value="28" />
+          <entry key="JavaScript" value="6" />
           <entry key="SCSS" value="38" />
           <entry key="SVG" value="2" />
         </counts>
@@ -55,121 +131,146 @@
         <counts>
           <entry key="css" value="189" />
           <entry key="gitignore" value="47" />
-          <entry key="html" value="4123" />
-          <entry key="js" value="2270" />
-          <entry key="scss" value="4323" />
+          <entry key="html" value="4200" />
+          <entry key="js" value="2345" />
+          <entry key="scss" value="4428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="189" />
           <entry key="Git file" value="47" />
-          <entry key="HTML" value="4139" />
-          <entry key="JavaScript" value="2254" />
-          <entry key="SCSS" value="4323" />
+          <entry key="HTML" value="4216" />
+          <entry key="JavaScript" value="2329" />
+          <entry key="SCSS" value="4428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="173473535">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="439" />
+          <entry key="js" value="345" />
+          <entry key="scss" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="439" />
+          <entry key="JavaScript" value="345" />
+          <entry key="SCSS" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="LICENSE" value="1" />
+          <entry key="html" value="35" />
+          <entry key="js" value="23" />
+          <entry key="json" value="1" />
+          <entry key="scss" value="4" />
+          <entry key="svg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="35" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="23" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="4" />
+          <entry key="SVG" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6610476">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/scratch.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/views/feedback.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="236">
-                  <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/inputs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7">
-                  <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
-                  <folding>
-                    <element signature="e#4898#4904#0" expanded="true" />
-                    <element signature="e#4918#4924#0" expanded="true" />
-                    <element signature="e#5155#5161#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/framework/components/animations.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/forms.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="857">
-                  <caret line="187" selection-start-line="187" selection-end-line="187" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/buttons.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="397">
-                  <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="84" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/framework/components/buttons.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="673">
-                  <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sass/framework/widgets/feedback.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/framework/components/fonts.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/forms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2055">
+              <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
+              <folding>
+                <element signature="e#817#823#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/directives/layout/headerDirective.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/base/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/directives/layout/footerDirective.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/base/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="23" lean-forward="true" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -180,6 +281,7 @@
       <find>hotpink</find>
       <find>hotpinkt</find>
       <find>0.75</find>
+      <find>btn-co</find>
     </findStrings>
     <replaceStrings>
       <replace>../images/widge</replace>
@@ -197,28 +299,38 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sass/landing/main.scss" />
         <option value="$PROJECT_DIR$/sass/landing.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/framework/components/fonts.scss" />
         <option value="$PROJECT_DIR$/sass/landing.css" />
         <option value="$PROJECT_DIR$/componets_contact.html" />
         <option value="$PROJECT_DIR$/sass/framework/other/normalize.scss" />
         <option value="$PROJECT_DIR$/node_modules/prismjs/prism.js" />
         <option value="$PROJECT_DIR$/sass/framework/widgets/contact.scss" />
-        <option value="$PROJECT_DIR$/documentation.html" />
-        <option value="$PROJECT_DIR$/views/buttons.html" />
-        <option value="$PROJECT_DIR$/sass/documentation.scss" />
         <option value="$PROJECT_DIR$/sass/framework/components/colors.scss" />
         <option value="$PROJECT_DIR$/sass/framework/components/buttons.scss" />
-        <option value="$PROJECT_DIR$/views/forms.html" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/sass/framework/widgets/widgets.scss" />
         <option value="$PROJECT_DIR$/sass/framework/widgets/reviews.scss" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/sass/framework/components/animations.scss" />
-        <option value="$PROJECT_DIR$/js/scratch.js" />
         <option value="$PROJECT_DIR$/sass/framework/widgets/feedback.scss" />
-        <option value="$PROJECT_DIR$/views/inputs.html" />
+        <option value="$PROJECT_DIR$/documentation.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/angular/directives/layout/headerDirective.js" />
+        <option value="$PROJECT_DIR$/angular/directives/layout/footerDirective.js" />
+        <option value="$PROJECT_DIR$/views/base/components.html" />
+        <option value="$PROJECT_DIR$/angular/directives/layout/sidebarDirective.js" />
+        <option value="$PROJECT_DIR$/views/documentation.html" />
+        <option value="$PROJECT_DIR$/views/base/side.html" />
+        <option value="$PROJECT_DIR$/views/buttons.html" />
         <option value="$PROJECT_DIR$/views/feedback.html" />
+        <option value="$PROJECT_DIR$/views/forms.html" />
+        <option value="$PROJECT_DIR$/views/inputs.html" />
+        <option value="$PROJECT_DIR$/js/scratch.js" />
+        <option value="$PROJECT_DIR$/sass/documentation.scss" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/views/base/header.html" />
+        <option value="$PROJECT_DIR$/views/base/footer.html" />
+        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/angular/app.js" />
       </list>
     </option>
   </component>
@@ -250,7 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,32 +372,12 @@
             <path>
               <item name="bawkbox_scratch" type="b2602c69:ProjectViewProjectNode" />
               <item name="bawkbox_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bawkbox_scratch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bawkbox_scratch" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bawkbox_scratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bawkbox_scratch" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bawkbox_scratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bawkbox_scratch" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bawkbox_scratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bawkbox_scratch" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bawkbox_scratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bawkbox_scratch" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bawkbox_scratch" type="b2602c69:ProjectViewProjectNode" />
@@ -297,10 +388,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="reviews&#9;FILE&#9;file:///home/jonit/Projects/bawkbox_scratch/sass/framework/widgets/reviews.scss&#10;buttons&#9;FILE&#9;file:///home/jonit/Projects/bawkbox_scratch/sass/framework/components/buttons.scss&#10;contact&#9;FILE&#9;file:///home/jonit/Projects/bawkbox_scratch/sass/framework/widgets/contact.scss" />
+    <property name="SearchEverywhereHistoryKey" value="documentation&#9;FILE&#9;file:///opt/lampp/htdocs/bawkbox_scratch/sass/documentation.scss&#10;reviews&#9;FILE&#9;file:///home/jonit/Projects/bawkbox_scratch/sass/framework/widgets/reviews.scss&#10;buttons&#9;FILE&#9;file:///home/jonit/Projects/bawkbox_scratch/sass/framework/components/buttons.scss&#10;contact&#9;FILE&#9;file:///home/jonit/Projects/bawkbox_scratch/sass/framework/widgets/contact.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -308,14 +400,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views" />
-      <recent name="$PROJECT_DIR$/sass" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sass/landing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/dist/images" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/sass" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,25 +441,27 @@
       <workItem from="1540856776414" duration="11468000" />
       <workItem from="1540915644805" duration="613000" />
       <workItem from="1541001969510" duration="948000" />
-      <workItem from="1541009543195" duration="6560000" />
+      <workItem from="1541009543195" duration="7412000" />
+      <workItem from="1541036525608" duration="225000" />
+      <workItem from="1541037042287" duration="2899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26833000" />
+    <option name="totallyTimeSpent" value="30809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114605546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="3" />
       <window_info id="Job Explorer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -376,7 +472,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.5771739" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.08369565" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -392,13 +488,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/cover.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/landing/main.scss" />
     <entry file="file://$PROJECT_DIR$/sass/landing.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -418,13 +507,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/componets_contact.html" />
-    <entry file="file://$PROJECT_DIR$/components_reviews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/widgets.css" />
     <entry file="file://$PROJECT_DIR$/sass/framework/other/normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -455,59 +537,8 @@
     <entry file="file://$PROJECT_DIR$/node_modules/prismjs/plugins/toolbar/prism-toolbar.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-          <folding>
-            <element signature="n#header#0;n#html#0;n#!!top" />
-            <element signature="e#7554#7560#0" expanded="true" />
-            <element signature="e#8327#8331#0" expanded="true" />
-            <element signature="e#11465#11469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/documentation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/framework/widgets/contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/framework/components/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/star-review.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/testimonial-star-filled.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/framework/widgets/reviews.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -523,19 +554,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/framework/components/animations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/framework/components/buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
+        <state relative-caret-position="900">
           <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/framework/widgets/widgets.scss">
+    <entry file="file://$PROJECT_DIR$/sass/framework/components/fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        <state relative-caret-position="20">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/framework/widgets/feedback.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation.html" />
+    <entry file="file://$PROJECT_DIR$/views/base/components.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/directives/layout/sidebarDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/base/side.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1320">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/star-review.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -544,57 +638,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/framework/components/animations.scss">
+    <entry file="file://$PROJECT_DIR$/sass/framework/widgets/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="540">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scratch.js">
+    <entry file="file://$PROJECT_DIR$/sass/framework/widgets/widgets.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/framework/widgets/feedback.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        <state relative-caret-position="1613">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="84" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/inputs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        <state relative-caret-position="539">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components_reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/documentation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/clipboard/dist/clipboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18324">
           <folding>
-            <element signature="e#4898#4904#0" expanded="true" />
-            <element signature="e#4918#4924#0" expanded="true" />
-            <element signature="e#5155#5161#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/feedback.html">
+    <entry file="file://$PROJECT_DIR$/angular/directives/layout/footerDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/base/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="23" lean-forward="true" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/directives/layout/headerDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angular-route/angular-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="985" selection-start-line="985" selection-end-line="985" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/base/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
+          <folding>
+            <element signature="e#817#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>

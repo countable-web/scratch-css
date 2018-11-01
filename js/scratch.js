@@ -64,9 +64,15 @@ document.addEventListener('DOMContentLoaded', function () {
     |                        FEEDBACK WIDGET
     *##############################################################*/
 
-    document.querySelector(".feedback-title").addEventListener('click', function (e) {
-        FeedbackUI.openAndClose(e.target.parentElement);
-    });
+    if(document.querySelector(".feedback-title")) {
+        document.querySelector(".feedback-title").addEventListener('click', function (e) {
+
+            FeedbackUI.openAndClose(e.target.parentElement);
+
+        });
+    }
+
+
 
     StarUI.clickToRating();
 

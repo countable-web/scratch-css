@@ -1,98 +1,26 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Scracth Framework - by Bawkbox</title>
 
-    <!--BOOTSTRAP (Header)-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <link rel="stylesheet" href="../sass/style.css">
+<div class="col-doc-right">
 
-    <!--PRISMJS SYNTAX HIGHLIGHTER-->
-
-    <link href="../node_modules/prismjs/themes/prism.css" rel="stylesheet"/>
-    <script src="../node_modules/prismjs/prism.js"></script>
-
-    <!--COPY TO CLIPBOARD JS PLUGIN-->
-    <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
+    <h2>Buttons</h2>
 
 
-    <!--CUSTOM JS-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                <h4 class="pb-2 pt-3">Default buttons</h4>
+                <hr>
+                <p>We can set multiple button colors by choosing one of the classes below: </p>
 
-    <script src="../js/app.js"></script>
+                <div class="btn-bawkbox-widgets btn-widgets-red ">Submit</div>
+                <div class="btn-bawkbox-widgets btn-widgets-black ">Submit</div>
+                <div class="btn-bawkbox-widgets btn-widgets-green ">Submit</div>
+                <div class="btn-bawkbox-widgets btn-widgets-purple ">Submit</div>
+                <div class="btn-bawkbox-widgets btn-widgets-yellow ">Submit</div>
 
+            </div>
 
-</head>
-
-
-<header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="../index.html">
-            <strong>Scratch CSS</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="../documentation.html">Documentation</a>
-                </li>
-                <!--<li class="nav-item">-->
-                <!--<a class="nav-link disabled" href="#">Disabled</a>-->
-                <!--</li>-->
-            </ul>
-
-        </div>
-    </nav>
-</header>
-
-<main class="doc-container">
-
-
-    <!--OPTIONS-->
-    <div class="col-doc-left">
-
-        <h5 class="components-title">Components</h5>
-        <ul class="components-list">
-            <!--DYNAMICALLY GENERATED MENU HERE-->
-        </ul>
-
-    </div>
-
-
-    <div class="col-doc-right">
-
-        <h2>Buttons</h2>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mb-2">
-                    <h4 class="pb-2 pt-3">Default buttons</h4>
-                    <hr>
-                    <p>We can set multiple button colors by choosing one of the classes below: </p>
-
-                    <div class="btn-bawkbox-widgets btn-widgets-red ">Submit</div>
-                    <div class="btn-bawkbox-widgets btn-widgets-black ">Submit</div>
-                    <div class="btn-bawkbox-widgets btn-widgets-green ">Submit</div>
-                    <div class="btn-bawkbox-widgets btn-widgets-purple ">Submit</div>
-                    <div class="btn-bawkbox-widgets btn-widgets-yellow ">Submit</div>
-
-                </div>
-
-                <div class="col-md-12 mb-2">
-                    <div class="markup-wrapper">
+            <div class="col-md-12 mb-2">
+                <div class="markup-wrapper">
                      <pre class="language-markup markup-box">
                     <code class="language-markup" id="buttons">
     &lt;div class=&quot;btn-bawkbox-widgets btn-widgets-red &quot;&gt;Submit&lt;/div&gt;
@@ -101,49 +29,33 @@
     &lt;div class=&quot;btn-bawkbox-widgets btn-widgets-purple &quot;&gt;Submit&lt;/div&gt;
     &lt;div class=&quot;btn-bawkbox-widgets btn-widgets-yellow &quot;&gt;Submit&lt;/div&gt;</code>
                 </pre>
-                        <button class="btn-copy-clipboard" data-clipboard-target="#buttons" data-toggle="tooltip"
-                                data-placement="bottom" data-trigger="click" title="Copied to clipboard!">Copy
-                        </button>
-                    </div>
+                    <button class="btn-copy-clipboard" data-clipboard-target="#buttons" data-toggle="tooltip"
+                            data-placement="bottom" data-trigger="click" title="Copied to clipboard!">Copy
+                    </button>
                 </div>
+            </div>
 
-                <div class="col-md-12 mt-5 mb-2">
-                    <h4 class="pb-2 pt-3">Right aligned buttons</h4>
-                    <hr>
-                    <p>You can just add the class "btn-align-right"</p>
-                    <div class="btn-bawkbox-widgets btn-widgets-green btn-align-right">Submit</div>
-                </div>
+            <div class="col-md-12 mt-5 mb-2">
+                <h4 class="pb-2 pt-3">Right aligned buttons</h4>
+                <hr>
+                <p>You can just add the class "btn-align-right"</p>
+                <div class="btn-bawkbox-widgets btn-widgets-green btn-align-right">Submit</div>
+            </div>
 
-                <div class="col-md-12">
-                    <div class="markup-wrapper">
+            <div class="col-md-12">
+                <div class="markup-wrapper">
                      <pre class="language-markup markup-box">
                     <code class="language-markup" id="buttons-right-aligned">
     &lt;div class=&quot;btn-bawkbox-widgets btn-widgets-green btn-align-right&quot;&gt;Submit&lt;/div&gt;
                     </code>
                 </pre>
-                        <button class="btn-copy-clipboard" data-clipboard-target="#buttons-right-aligned" data-toggle="tooltip"
-                                data-placement="bottom" data-trigger="click" title="Copied to clipboard!">Copy
-                        </button>
-                    </div>
+                    <button class="btn-copy-clipboard" data-clipboard-target="#buttons-right-aligned" data-toggle="tooltip"
+                            data-placement="bottom" data-trigger="click" title="Copied to clipboard!">Copy
+                    </button>
                 </div>
             </div>
         </div>
-
-
     </div>
 
 
-</main>
-
-
-<!--BOOTSTRAP (Footer)-->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-
-</body>
-</html>
+</div>

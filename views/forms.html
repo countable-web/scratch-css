@@ -1,92 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Scracth Framework - by Bawkbox</title>
+<div class="col-doc-right">
 
-    <!--BOOTSTRAP (Header)-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="../sass/style.css">
+    <h2>Forms</h2>
 
-    <!--jQUERY-->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <div class="container">
 
-    <!--PRISMJS SYNTAX HIGHLIGHTER-->
-
-    <link href="../node_modules/prismjs/themes/prism.css" rel="stylesheet"/>
-    <script src="../node_modules/prismjs/prism.js"></script>
-
-    <!--COPY TO CLIPBOARD JS PLUGIN-->
-    <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
-
-
-    <!--CUSTOM JS-->
-
-    <script src="../js/app.js"></script>
-
-</head>
-
-
-<header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="../index.html">
-            <strong>Scratch CSS</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="../documentation.html">Documentation</a>
-                </li>
-                <!--<li class="nav-item">-->
-                <!--<a class="nav-link disabled" href="#">Disabled</a>-->
-                <!--</li>-->
-            </ul>
-
-        </div>
-    </nav>
-</header>
-
-<main class="doc-container">
-
-
-    <!--OPTIONS-->
-    <div class="col-doc-left">
-
-        <h5 class="components-title">Components</h5>
-        <ul class="components-list">
-
-        </ul>
-
-    </div>
-
-
-    <div class="col-doc-right">
-
-        <h2>Forms</h2>
-
-        <p>This contact and reviews form widget design is easily adaptable to most of the background colors, coming in
-            two different samples: A for light backgrounds and B for darker backgrounds.
-
-
-            <!--CONTACT DEFAULT-->
-        <h4 class="pb-2 pt-3">Default Theme</h4>
-        <hr>
         <div class="row">
 
             <div class="col-lg-6 mb-5">
-
+                <!--CONTACT DEFAULT-->
+                <h4 class="pb-2 pt-3">Default Theme</h4>
+                <hr>
                 <div class="bawkbox-contact">
 
                     <div class="bawkbox-contact-title white">Contact Us</div>
@@ -98,10 +21,7 @@
                     <div class="bawkbox-textarea-wrapper">
                         <textarea class="bawkbox-widgets-textarea" cols="30" rows="10" placeholder="message"></textarea>
                         <div class="bawkbox-powered-by">powered by &copy;
-                            <object type="image/svg+xml" data="../images/widgets/components/widget-logo.svg"
-                                    class="bawkbox-powered-by-logo">
-                                <img src="../images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
-                            </object>
+                            <img ng-src="dist/images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
                         </div>
                     </div>
 
@@ -165,10 +85,7 @@
                     <div class="bawkbox-textarea-wrapper">
                         <textarea class="bawkbox-widgets-textarea" cols="30" rows="10" placeholder="message"></textarea>
                         <div class="bawkbox-powered-by">powered by &copy;
-                            <object type="image/svg+xml" data="../images/widgets/components/widget-logo.svg"
-                                    class="bawkbox-powered-by-logo">
-                                <img src="images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
-                            </object>
+                            <img ng-src="dist/images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
                         </div>
                     </div>
 
@@ -236,10 +153,7 @@
                     <div class="bawkbox-textarea-wrapper">
                         <textarea class="bawkbox-widgets-textarea" cols="30" rows="10" placeholder="message"></textarea>
                         <div class="bawkbox-powered-by">powered by &copy;
-                            <object type="image/svg+xml" data="../images/widgets/components/widget-logo.svg"
-                                    class="bawkbox-powered-by-logo">
-                                <img src="../images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
-                            </object>
+                            <img ng-src="dist/images/widgets/components/widget-logo.svg" class="bawkbox-powered-by-logo">
                         </div>
                     </div>
 
@@ -278,55 +192,7 @@
             </div>
         </div>
 
-
     </div>
 
 
-    <!--<div class="col-md-6">-->
-
-
-    <!--<pre class="language-markup markup-box"><code class="language-markup">-->
-    <!--&lt;div class=&quot;bawkbox-contact dark-theme&quot;&gt;-->
-    <!--&lt;div class=&quot;bawkbox-contact-title dark&quot;&gt;Contact Us&lt;/div&gt;-->
-    <!--&lt;input type=&quot;text&quot; placeholder=&quot;name&quot; class=&quot;bawkbox-widgets-input&quot;&gt;-->
-    <!--&lt;input type=&quot;email&quot; placeholder=&quot;email&quot; class=&quot;bawkbox-widgets-input&quot;&gt;-->
-    <!--&lt;div class=&quot;bawkbox-textarea-wrapper&quot;&gt;-->
-    <!--&lt;textarea class=&quot;bawkbox-widgets-textarea&quot; cols=&quot;30&quot; rows=&quot;10&quot; placeholder=&quot;message&quot;&gt;&lt;/textarea&gt;-->
-    <!--&lt;div class=&quot;bawkbox-powered-by&quot;&gt;powered by &amp;copy;-->
-    <!--&lt;object type=&quot;image/svg+xml&quot; data=&quot;images/widgets/components/widget-logo.svg&quot;-->
-    <!--class=&quot;bawkbox-powered-by-logo&quot;&gt;-->
-    <!--&lt;img src=&quot;images/widgets/components/widget-logo.svg&quot; class=&quot;bawkbox-powered-by-logo&quot;&gt;-->
-    <!--&lt;/object&gt;-->
-    <!--&lt;/div&gt;-->
-    <!--&lt;/div&gt;-->
-    <!--&lt;div class=&quot;btn-bawkbox-widgets btn-widgets-red  btn-align-right&quot;&gt;Submit&lt;/div&gt;-->
-    <!--&lt;/div&gt;&lt;/div&gt;-->
-    <!--</code></pre>-->
-
-
-    <!--</div>-->
-    <!--</div>-->
-
-
-    <!--<div class="contact-container">-->
-
-
-    <!--</div>-->
-
-    <!--</div>-->
-
-
-</main>
-
-
-<!--BOOTSTRAP (Footer)-->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-
-</body>
-</html>
+</div>
