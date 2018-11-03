@@ -58,14 +58,19 @@ class StarUI {
 *##############################################################*/
 
 document.addEventListener('DOMContentLoaded', function () {
+    
+    console.log("Scratch UI loaded");
 
 
     /*#############################################################|
     |                        FEEDBACK WIDGET
     *##############################################################*/
 
+
     if(document.querySelector(".feedback-title")) {
         document.querySelector(".feedback-title").addEventListener('click', function (e) {
+
+
 
             FeedbackUI.openAndClose(e.target.parentElement);
 
