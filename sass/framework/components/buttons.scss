@@ -14,33 +14,40 @@
   min-width: 130px;
   max-width: 100px;
   margin-top: 1rem;
+
+  display: inline-block;
+  float: left;
+  margin-right: 1rem;
+
+
 }
 
 .btn-widgets-black {
-  background-color: #464646;
+  background-color: $bawkbox-widgets-black;
 }
 
 .btn-widgets-red {
-  background-color: #E45336;
+  background-color: $bawkbox-widgets-red;
 }
 
 .btn-widgets-green {
-  background-color: #9FC357;
+  background-color: $bawkbox-widgets-green;
 }
 
 .btn-widgets-purple {
-  background-color: #745DF9;
+  background-color: $bawkbox-widgets-purple;
 }
 
-.btn-widgets-purple {
-  background-color: #11B8C6;
+.btn-widgets-aqua {
+  background-color: $bawkbox-widgets-aqua;
 }
 
 .btn-widgets-yellow {
-  background-color: #FED768;
+  background-color: $bawkbox-widgets-yellow;
 }
 
 .btn-align-right {
-  margin-left: auto;
+  float: right;
+  margin-right: 0;
 
 }

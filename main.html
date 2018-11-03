@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scracth Framework - by Bawkbox</title>
+
+    <!--BOOTSTRAP (Header)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+    <!--jQUERY-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!--SCRATCH CSS-->
+    <link rel="stylesheet" href="sass/style.css">
+
+
+    <!--DOCUMENTATION PAGE ONLY (NOT FOR FRAMEWORK)-->
+    <script src="js/app.js"></script>
+
+    <!--SCRATCH JS -->
+    <script src="js/scratch.js"></script>
+
+
+
+    <!--PRISMJS SYNTAX HIGHLIGHTER / CLIPBOARD-->
+
+    <link href="node_modules/prismjs/themes/prism-tomorrow.css" rel="stylesheet"/>
+    <script src="node_modules/prismjs/prism.js"></script>
+    <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
+
+    <!-- ANGULAR JS -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-css/angular-css.min.js"></script>
+    <script src="angular/app.js"></script>
+
+    <!--DIRECTIVES-->
+    <script src="angular/directives/layout/headerDirective.js"></script>
+    <script src="angular/directives/layout/footerDirective.js"></script>
+    <script src="angular/directives/layout/sidebarDirective.js"></script>
+
+
+
+
+</head>
+
+<ng-header></ng-header>
+
+
+<main class="doc-container">
+
+    <ng-sidebar></ng-sidebar>
+
+
+    <ng-view></ng-view>
+
+
+</main>
+
+
+<!--BOOTSTRAP (Footer)-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
