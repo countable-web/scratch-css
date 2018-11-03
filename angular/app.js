@@ -1,7 +1,7 @@
 let app = angular.module("app", ['ngRoute', 'angularCSS']);
 
 
-app.config(function ($routeProvider, $locationProvider) {
+app.config(function ($routeProvider) {
     $routeProvider
         .when("/", {
             templateUrl: "views/forms.html",
@@ -21,7 +21,6 @@ app.config(function ($routeProvider, $locationProvider) {
         });
 
 
-// configure html5 to get links working on jsfiddle
-    $locationProvider.html5Mode(true);
+
 
 });
