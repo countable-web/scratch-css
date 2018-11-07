@@ -16,6 +16,9 @@ app.config(function ($routeProvider) {
         .when("/feedback", {
             templateUrl: "views/feedback.html"
         })
+        .when("/checkboxradio", {
+            templateUrl: "views/checkbox-and-radio.html"
+        })
         .when("/forms", {
             templateUrl: "views/forms.html"
         });
