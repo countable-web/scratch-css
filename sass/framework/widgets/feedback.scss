@@ -65,7 +65,7 @@
       .rating-text {
         font-family: $font-secondary;
         font-size: 0.9rem;
-        color: $bawkbox-widgets-black;
+        color: $bawkbox-theme-secondary;
         text-align: center;
         font-weight: bold;
         align-self: center;
@@ -83,20 +83,25 @@
       left: -2.4rem;
     }
 
-    .disclaimer {
-      color: #ACABAC;
-      font-size: 0.65rem;
-      position: absolute;
-      bottom: 0.7rem;
-      left: 3.7rem;
-      width: 120px;
-
-      &:hover, :active {
-        text-decoration: none;
-      }
-
-    }
-
   }
 
+}
+
+.feedback-disclaimer {
+  color: #ACABAC;
+  font-size: 0.65rem;
+  position: absolute;
+  bottom: 0.7rem;
+  left: 3.7rem;
+  width: 230px;
+
+  &:hover, :active {
+    text-decoration: none;
+  }
+
+}
+
+.bawk-rating-size {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }

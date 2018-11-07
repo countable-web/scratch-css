@@ -1,4 +1,3 @@
-
 $bawkbox-widgets-black: #464646;
 $bawkbox-widgets-red: #E45336;
 $bawkbox-widgets-green: #9FC357;
@@ -6,27 +5,38 @@ $bawkbox-widgets-purple: #745DF9;
 $bawkbox-widgets-aqua: #11B8C6;
 $bawkbox-widgets-yellow: #FED768;
 
+/*#############################################################|
+|  >>> THEME
+*##############################################################*/
 
-.bawkbox-widgets-black {
-  background-color: $bawkbox-widgets-black;
+$theme: "dark"; //set your theme here!
+
+//default variables
+$bawkbox-widgets-primary: $bawkbox-widgets-red;
+$bawkbox-widgets-secondary: $bawkbox-widgets-black;
+$bawkbox-theme-primary: $bawkbox-widgets-black;
+$bawkbox-theme-secondary: white;
+
+
+@if $theme == "light" {
+
+  $bawkbox-widgets-primary: $bawkbox-widgets-red;
+  $bawkbox-widgets-secondary: $bawkbox-widgets-black;
+  $bawkbox-theme-primary: white;
+  $bawkbox-theme-secondary: $bawkbox-widgets-black;
+
 }
 
-.bawkbox-widgets-red {
-  background-color: $bawkbox-widgets-red;
+@if $theme == "dark" {
+
+  $bawkbox-widgets-primary: $bawkbox-widgets-red;
+  $bawkbox-widgets-secondary: $bawkbox-widgets-black;
+  $bawkbox-theme-primary: $bawkbox-widgets-black;
+  $bawkbox-theme-secondary: white;
+
+
 }
 
-.bawkbox-widgets-green {
-  background-color: $bawkbox-widgets-green;
-}
 
-.bawkbox-widgets-purple {
-  background-color: $bawkbox-widgets-purple;
-}
 
-.bawkbox-widgets-aqua {
-  background-color: $bawkbox-widgets-aqua;
-}
 
-.bawkbox-widgets-yellow {
-  background-color: $bawkbox-widgets-yellow;
-}

@@ -7,18 +7,10 @@
   padding-top: 5rem;
 }
 
-.rio {
-
-  box-sizing: border-box;
-  background: url("../../../images/rio.jpg") no-repeat;
-  background-size: cover;
-
-}
-
 /* Components =========================================== */
 
 .bawkbox-contact {
-  //width: 500px;
+  padding: 1rem;
   height: auto;
   padding-bottom: 1rem;
   box-sizing: border-box;
@@ -27,11 +19,18 @@
   display:inline-block;
   float:left;
 
+  .bawkbox-contact-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: -0.1rem;
+    color: $bawkbox-theme-secondary;
+  }
+
+  background-color: $bawkbox-theme-primary;
 }
 
-.bawkbox-contact-title {
 
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: -0.1rem;
+.center {
+  justify-content: center;
+  align-items: center;
 }

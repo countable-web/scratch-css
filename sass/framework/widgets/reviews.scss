@@ -1,18 +1,6 @@
-body {
-  background-color: white;
-  font-family: 'Montserrat', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 100vh;
-  padding-top: 5rem;
-}
 
-.rio {
-
-  box-sizing: border-box;
-  background: url("../images/rio.jpg") no-repeat;
-  background-size: cover;
-
+.ratings-form {
+  margin-bottom: 5.2rem;
 }
 
 .bawkbox-reviews {
@@ -46,4 +34,92 @@ body {
   max-width: 28.2px;
   height: 23px;
   padding-left: .5rem;
+}
+
+.bawk-rating {
+  padding: 0;
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+
+.btn-manage {
+  margin-bottom: 1.8rem;
+}
+
+.btn-write-review {
+  max-width: none;
+  float: none !important;
+}
+
+.review-header {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+
+  .star-rating-date {
+    font-size: 0.9rem;
+    color: lighten($bawkbox-theme-secondary, 25%);
+    font-style: italic;
+  }
+
+  .review-title {
+    flex: 1 1 100%;
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  .star-rating-date {
+    flex: 1 1 100%;
+  }
+
+  .rating-description {
+    padding-top: 0.7rem;
+  }
+
+  .rating-description, .rating-reviewer {
+    font-family: $font-secondary;
+    color: $bawkbox-theme-secondary;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .rating-reviewer {
+    font-weight: bold;
+    margin-top: -0.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .rating-hepful-class {
+    flex: 1 1 100%;
+    font-family: $font-secondary;
+    color: lighten($bawkbox-theme-secondary, 25%);
+    font-style: italic;
+    font-size: 0.8rem;
+
+    a {
+      color: $bawkbox-widgets-primary;
+      font-weight: bold;
+    }
+
+  }
+
+}
+
+.rating-average-container {
+  font-family: $font-primary;
+  color: $bawkbox-widgets-primary;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  .rating-value {
+    font-size: 0.7rem;
+    padding-right: 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: .5rem;
+    display: inline-block;
+  }
+
 }

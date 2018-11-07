@@ -299,24 +299,9 @@ template {
   display: none; }
 
 /* Base framework components =========================================== */
-.bawkbox-widgets-black {
-  background-color: #464646; }
-
-.bawkbox-widgets-red {
-  background-color: #E45336; }
-
-.bawkbox-widgets-green {
-  background-color: #9FC357; }
-
-.bawkbox-widgets-purple {
-  background-color: #745DF9; }
-
-.bawkbox-widgets-aqua {
-  background-color: #11B8C6; }
-
-.bawkbox-widgets-yellow {
-  background-color: #FED768; }
-
+/*#############################################################|
+|  >>> THEME
+*##############################################################*/
 .btn-bawkbox-widgets {
   color: white;
   text-align: center;
@@ -335,23 +320,17 @@ template {
   float: left;
   margin-right: 1rem; }
 
-.btn-widgets-black {
-  background-color: #464646; }
+.btn-block {
+  max-width: none !important;
+  width: 100%; }
 
-.btn-widgets-red {
-  background-color: #E45336; }
+.btn-widgets-primary {
+  background-color: #E45336;
+  color: white; }
 
-.btn-widgets-green {
-  background-color: #9FC357; }
-
-.btn-widgets-purple {
-  background-color: #745DF9; }
-
-.btn-widgets-aqua {
-  background-color: #11B8C6; }
-
-.btn-widgets-yellow {
-  background-color: #FED768; }
+.btn-widgets-secondary {
+  background-color: #464646;
+  color: white; }
 
 .btn-align-right {
   float: right;
@@ -426,25 +405,6 @@ template {
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; } }
-/* Widgets =========================================== */
-/* Components =========================================== */
-.transparent-theme {
-  padding: 1rem;
-  margin: 0 auto;
-  align-self: center; }
-
-.dark-theme {
-  background-color: #464646;
-  padding: 1rem;
-  margin: 0 auto;
-  align-self: center; }
-
-.dark {
-  color: white; }
-
-.white {
-  color: #464646; }
-
 .bawkbox-widgets-input {
   border-radius: 3px;
   background-color: #EFEFEF;
@@ -466,6 +426,7 @@ template {
   color: #B4B4B4; }
 
 .bawkbox-widgets-textarea {
+  position: relative;
   border-radius: 3px;
   background-color: #EFEFEF;
   border: none;
@@ -484,19 +445,137 @@ template {
 .bawkbox-powered-by {
   position: absolute;
   bottom: 1rem;
-  right: -0.7rem;
+  right: -5.7rem;
   color: #B4B4B4;
   font-size: 0.6rem;
-  width: 144px; }
+  width: 234px; }
 
 .bawkbox-powered-by-logo {
   max-width: 50px;
   padding-left: .2rem; }
 
-.center {
-  justify-content: center;
-  align-items: center; }
+/* CHECKBOX =========================================== */
+/* Customize the label (the check-container) */
+.check-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Montserrat", sans-serif; }
 
+/* Hide the browser's default checkbox */
+.check-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #464646;
+  border-radius: 4.3px; }
+
+/* On mouse-over, add a grey background color */
+.check-container:hover input ~ .checkmark {
+  background-color: #464646; }
+
+/* When the checkbox is checked, add a blue background */
+.check-container input:checked ~ .checkmark {
+  background-color: #E45336; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.check-container input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.check-container .checkmark:after {
+  left: 10.3px;
+  top: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-radius: 5px;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.check-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  position: relative;
+  top: -0.4rem; }
+
+/* RADIO =========================================== */
+.radio-container [type="radio"]:checked,
+.radio-container [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px; }
+.radio-container [type="radio"] + label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  position: relative;
+  top: -0.4rem;
+  color: #464646; }
+.radio-container [type="radio"]:checked + label,
+.radio-container [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #464646; }
+.radio-container [type="radio"]:checked + label:before,
+.radio-container [type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #464646; }
+.radio-container [type="radio"]:checked + label:after,
+.radio-container [type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: white;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+.radio-container [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0); }
+.radio-container [type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+/* Widgets =========================================== */
 .contact-container {
   background-color: white;
   font-family: "Montserrat", sans-serif;
@@ -505,38 +584,29 @@ template {
   min-height: 100vh;
   padding-top: 5rem; }
 
-.rio {
-  box-sizing: border-box;
-  background: url("../../../images/rio.jpg") no-repeat;
-  background-size: cover; }
-
 /* Components =========================================== */
 .bawkbox-contact {
+  padding: 1rem;
   height: auto;
   padding-bottom: 1rem;
   box-sizing: border-box;
   align-self: center;
   margin-bottom: 2rem;
   display: inline-block;
-  float: left; }
+  float: left;
+  background-color: #464646; }
+  .bawkbox-contact .bawkbox-contact-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: -0.1rem;
+    color: white; }
 
-.bawkbox-contact-title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: -0.1rem; }
+.center {
+  justify-content: center;
+  align-items: center; }
 
-body {
-  background-color: white;
-  font-family: 'Montserrat', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 100vh;
-  padding-top: 5rem; }
-
-.rio {
-  box-sizing: border-box;
-  background: url("../images/rio.jpg") no-repeat;
-  background-size: cover; }
+.ratings-form {
+  margin-bottom: 5.2rem; }
 
 .bawkbox-reviews {
   width: 500px;
@@ -564,6 +634,68 @@ body {
   max-width: 28.2px;
   height: 23px;
   padding-left: .5rem; }
+
+.bawk-rating {
+  padding: 0;
+  margin-top: .5rem;
+  margin-left: 1rem; }
+
+.btn-manage {
+  margin-bottom: 1.8rem; }
+
+.btn-write-review {
+  max-width: none;
+  float: none !important; }
+
+.review-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start; }
+  .review-header .star-rating-date {
+    font-size: 0.9rem;
+    color: white;
+    font-style: italic; }
+  .review-header .review-title {
+    flex: 1 1 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem; }
+  .review-header .star-rating-date {
+    flex: 1 1 100%; }
+  .review-header .rating-description {
+    padding-top: 0.7rem; }
+  .review-header .rating-description, .review-header .rating-reviewer {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    width: 100%; }
+  .review-header .rating-reviewer {
+    font-weight: bold;
+    margin-top: -0.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  .review-header .rating-hepful-class {
+    flex: 1 1 100%;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 0.8rem; }
+    .review-header .rating-hepful-class a {
+      color: #E45336;
+      font-weight: bold; }
+
+.rating-average-container {
+  font-family: "Montserrat", sans-serif;
+  color: #E45336;
+  font-size: 1.2rem;
+  font-weight: bold; }
+  .rating-average-container .rating-value {
+    font-size: 0.7rem;
+    padding-right: 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: .5rem;
+    display: inline-block; }
 
 .feedback-open {
   right: 0; }
@@ -618,7 +750,7 @@ body {
       .feedback-box .feedback .feedback-content .rating-text {
         font-family: "Open Sans", sans-serif;
         font-size: 0.9rem;
-        color: #464646;
+        color: white;
         text-align: center;
         font-weight: bold;
         align-self: center; }
@@ -630,15 +762,20 @@ body {
       position: absolute;
       bottom: 0.6rem;
       left: -2.4rem; }
-    .feedback-box .feedback .disclaimer {
-      color: #ACABAC;
-      font-size: 0.65rem;
-      position: absolute;
-      bottom: 0.7rem;
-      left: 3.7rem;
-      width: 120px; }
-      .feedback-box .feedback .disclaimer:hover, .feedback-box .feedback .disclaimer :active {
-        text-decoration: none; }
+
+.feedback-disclaimer {
+  color: #ACABAC;
+  font-size: 0.65rem;
+  position: absolute;
+  bottom: 0.7rem;
+  left: 3.7rem;
+  width: 230px; }
+  .feedback-disclaimer:hover, .feedback-disclaimer :active {
+    text-decoration: none; }
+
+.bawk-rating-size {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
 
 /* Pages =========================================== */
 body {
@@ -673,9 +810,12 @@ h2 {
   .doc-container .col-doc-right {
     padding: 1.5rem; }
   .doc-container .col-doc-left {
+    margin-top: 5.5rem;
     box-sizing: border-box;
     flex: 1 1 20%; }
   .doc-container .col-doc-right {
+    margin-top: 3rem;
+    padding-top: 4rem;
     box-sizing: border-box;
     flex: 1 1 80%; }
   .doc-container .components-list {
@@ -730,4 +870,4 @@ h2 {
     outline: none;
     box-shadow: none; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=scratch-dark.css.map */

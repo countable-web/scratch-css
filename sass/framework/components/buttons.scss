@@ -18,32 +18,21 @@
   display: inline-block;
   float: left;
   margin-right: 1rem;
-
-
 }
 
-.btn-widgets-black {
-  background-color: $bawkbox-widgets-black;
+.btn-block {
+  max-width: none !important;
+  width: 100%;
 }
 
-.btn-widgets-red {
-  background-color: $bawkbox-widgets-red;
+.btn-widgets-primary {
+  background-color: $bawkbox-widgets-primary;
+  color: white;
 }
 
-.btn-widgets-green {
-  background-color: $bawkbox-widgets-green;
-}
-
-.btn-widgets-purple {
-  background-color: $bawkbox-widgets-purple;
-}
-
-.btn-widgets-aqua {
-  background-color: $bawkbox-widgets-aqua;
-}
-
-.btn-widgets-yellow {
-  background-color: $bawkbox-widgets-yellow;
+.btn-widgets-secondary {
+  background-color: $bawkbox-widgets-secondary;
+  color: white;
 }
 
 .btn-align-right {
