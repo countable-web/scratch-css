@@ -302,6 +302,14 @@ template {
 /*#############################################################|
 |  >>> THEME
 *##############################################################*/
+/*
+1) Change the $theme variable below to your desired theme.
+2) Start your sass and change the file name output to your desired theme name.
+eg.: sass --watch style.scss:scratch-vanilla.css
+
+3) update main.html to the new generated css file
+4) Enjoy your new theme!
+*/
 .btn-bawkbox-widgets {
   color: white;
   text-align: center;
@@ -407,8 +415,8 @@ template {
     animation-timing-function: ease-out; } }
 .bawkbox-widgets-input {
   border-radius: 3px;
-  background-color: #EFEFEF;
-  border: none;
+  background-color: white;
+  border: 1px solid #acacac;
   outline: none;
   padding: 0.8rem;
   font-family: "Montserrat", sans-serif;
@@ -428,8 +436,8 @@ template {
 .bawkbox-widgets-textarea {
   position: relative;
   border-radius: 3px;
-  background-color: #EFEFEF;
-  border: none;
+  background-color: white;
+  border: 1px solid #acacac;
   outline: none;
   padding: 0.8rem;
   font-family: 'Montserrat', sans-serif;
@@ -873,4 +881,4 @@ h2 {
     outline: none;
     box-shadow: none; }
 
-/*# sourceMappingURL=scratch-light.css.map */
+/*# sourceMappingURL=scratch-vanilla.css.map */

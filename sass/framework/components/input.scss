@@ -1,11 +1,13 @@
 
 .bawkbox-widgets-input {
   border-radius: 3px;
-  background-color: #EFEFEF;
-  border: none;
+  background-color: $bawkbox-theme-tertiary;
+
+  @include checkInputBorder($theme);
+
   outline: none;
   padding: 0.8rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $font-primary;
   font-size: 0.9rem;
   width: 100%;
   margin-top: 1rem;
@@ -23,10 +25,10 @@
 }
 
 .bawkbox-widgets-textarea {
-  position:relative;
+  position: relative;
   border-radius: 3px;
-  background-color: #EFEFEF;
-  border: none;
+  background-color: $bawkbox-theme-tertiary;
+  @include checkInputBorder($theme);
   outline: none;
   padding: 0.8rem;
   font-family: 'Montserrat', sans-serif;
@@ -37,19 +39,19 @@
   box-sizing: border-box;
 }
 
-
 .bawkbox-textarea-wrapper {
   position: relative;
 }
 
-
 .bawkbox-powered-by {
   position: absolute;
   bottom: 1rem;
-  right: -5.7rem;
   color: #B4B4B4;
   font-size: 0.6rem;
-  width: 234px;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  padding-right: 1rem;
 }
 
 .bawkbox-powered-by-logo {

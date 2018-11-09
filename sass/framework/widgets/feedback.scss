@@ -1,3 +1,4 @@
+
 .feedback-open {
   right: 0;
 }
@@ -8,30 +9,24 @@
 
 .feedback-box {
   position: relative;
-
   -webkit-box-shadow: inset 4px 4px 5px -3px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 4px 4px 5px -3px rgba(0, 0, 0, 0.15);
   box-shadow: inset 4px 4px 5px -3px rgba(0, 0, 0, 0.15);
-
-  width: 100%;
-  height: 250px;
+  width: 81.7%;
+  height: 227px;
   overflow: hidden;
 
   .feedback {
     position: absolute;
     top: 0;
-
     transition-property: right;
     transition-duration: 1s;
-
     border: 1px solid #343a402e;
     border-left-color: #464646;
     border-left-width: 3rem;
     border-left-style: solid;
-
     width: 300px;
     height: 227px;
-
     border-radius: 5px;
     -webkit-box-shadow: -8px 8px 5px -4px rgba(0, 0, 0, 0.23);
     -moz-box-shadow: -8px 8px 5px -4px rgba(0, 0, 0, 0.23);
@@ -40,13 +35,13 @@
     .feedback-title {
       position: absolute;
       top: 0.5rem;
-      left: -3.9rem;
+      left: -3.7rem;
       font-weight: 500;
       font-family: "Montserrat", sans-serif;
       writing-mode: vertical-rl;
       font-weight: 600;
       color: white;
-      letter-spacing: 1.1px;
+      letter-spacing: 1.8px;
       cursor: pointer;
       height: 91%;
       padding: .5rem;
@@ -63,9 +58,9 @@
       flex-wrap: wrap;
 
       .rating-text {
-        font-family: $font-secondary;
+        font-family: "Open Sans", sans-serif;
         font-size: 0.9rem;
-        color: $bawkbox-theme-secondary;
+        color: #464646;
         text-align: center;
         font-weight: bold;
         align-self: center;
@@ -74,31 +69,33 @@
     }
 
     .feedback-icon {
-      width: 29px;
-      height: 28px;
-      background-image: url("../dist/widgets/components/mailbox.svg");
+      width: 22px;
+      height: 22px;
+      background-image: url("/widget-static/svg/components/mailbox.svg");
       background-repeat: no-repeat;
       position: absolute;
+
       bottom: 0.6rem;
-      left: -2.4rem;
+      left: -2.1rem;
+
     }
 
   }
 
 }
 
+
 .feedback-disclaimer {
   color: #ACABAC;
   font-size: 0.65rem;
   position: absolute;
-  bottom: 0.7rem;
-  left: 3.7rem;
+  bottom: -2.5rem;
+  left: 3.4rem;
   width: 230px;
+}
 
-  &:hover, :active {
-    text-decoration: none;
-  }
-
+.feedback-disclaimer:hover, .feedback-disclaimer :active {
+  text-decoration: none;
 }
 
 .bawk-rating-size {

@@ -1,0 +1,7 @@
+@mixin checkInputBorder($theme) {
+  @if($theme == "vanilla") {
+    border: 1px solid lighten($bawkbox-widgets-black,40%);
+  } @else {
+    border: none;
+  }
+}
